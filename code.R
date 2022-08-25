@@ -7,7 +7,7 @@ library(extrafont)
 library(ggthemes)
 
 #import data
-#konfliktskala=read_csv(here("data","konfliktskala.csv"))
+konfliktskala=read_csv(here("data","konfliktskala.csv"))
 data=konfliktskala
 
 #Create Mean of variables and change type of data
